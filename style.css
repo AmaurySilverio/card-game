@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.titles{
+  margin: 15px;
+  color: #f13b3b;
+}
+h1{
+  margin-bottom: 15px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.buttonMargin{
+margin-right: 5px;
+}
+button{
+  background-color: #f13b3b;
+  border: 0;
+  padding: 9px;
+  cursor: pointer;
+}
+html {
+  background: url(./background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+.card-container{
+  margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 720px;
+    padding: 0 10px;
+}
+.card{
+  max-width: 116px;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  overflow: hidden;
+  max-height: 116px;
+}
+img{
+  width: 100%;
+}
+.modal p:hover{
+  box-shadow: none;
+}
+/* The Modal (background) */
+.modal {
+  display: none;  /* Hidden by default; */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* @media screen and (max-width: 446px) {
+  h1{
+    display: none;
+  }
+  .titles{
+    margin: 15px 0px;
+    color: #f13b3b;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+
+} */
